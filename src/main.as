@@ -23,13 +23,19 @@ void Main() {
   print("TMNotes initialised");
 }
 
-void RenderInterface() {
+void RenderMenu() {
+  if (UI::MenuItem("Markdown Notes", selected: showModal)) {
+    showModal = !showModal;
+  }
+}
+
+void Render() {
   if (!showModal) {
     return;
   }
 
   
-  UI::Begin("Notes", UI::WindowFlags::NoTitleBar);
+  UI::Begin("Notes", UI::WindowFlags::NoTitleBar + UI::WindowFlags::NoCollapse);
     UI::BeginGroup();
       if (UI::Button(Icons::FileO)) {
         showInput = false;
