@@ -6,5 +6,5 @@ Made for Trackmania (2020) with [Openplanet](https://openplanet.dev/)'s modding 
 
 ## Todo
 
-- Add option to save multiple notes and restore more than one note
+- Add option to create and restore multiple notes
 - I'm open to suggestions, leave them as [issues](https://github.com/Reinachan/Trackmania-Markdown-Notes/issues)
